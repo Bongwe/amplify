@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Amplify</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+	<body>
+		<div class="container d-flex h-100">
+
+            <div class = "row">
+                <div class="col-xs-12">
+                    <a href="index.html" id="logo">amplify</a>
+                </div>
+            </div>
+        
+
+            <div class="row">
+                    <div class="col-xs-3 col-xs-offset-1 col-md-2 col-md-offset-3">
+                        <img src="img/playIcon.png" id="playButton"/>
+                    </div>
+                    <div class="col-xs-3 col-md-2">
+                        <img src="img/stopIcon.png" id="stopButton"/>
+                    </div>
+                    <div class="col-xs-5 ">
+                        <img src="img/nextIcon.png" id="nextButton"/>
+                    </div>
+            </div>
+                
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-3">
+                    <p>Which cartoon series is this audio clip from?</p>
+                </div>
+            </div>
+
+            <div class="row" id="question-0">
+                <div class="col-xs-7 col-xs-offset-3 options">
+                    <div class="option" id="option-0">a. Tom and Jerry</div>
+                    <div class="option" id="option-1">b. Johnny Bravo</div>
+                    <div class="option" id="option-2">c. Pepe Le Pew</div>
+                </div>
+            </div>
+
+            <div class="row" id="question-1">
+                <div class="col-xs-8 col-xs-offset-3 options">
+                    <div class="option" id="option-3">a. Dexter's Laboratory</div>
+                    <div class="option" id="option-4">b. Pinky And The Brain</div>
+                    <div class="option" id="option-5">c. Recess</div>
+                </div>
+            </div>
+
+            <div class="row" id="question-2">
+                <div class="col-xs-7 col-xs-offset-3 options">
+                    <div class="option" id="option-6">a. Scrooge McDuck</div>
+                    <div class="option" id="option-7">b. Bugs Bunny and Daffy Duck</div>
+                    <div class="option" id="option-8">c. Looney Tunes</div>
+                </div>
+            </div>
+
+            <div class = "row output" id="correctOutput">
+                <div class="col-xs-5 col-xs-offset-2 col-md-2 col-md-offset-3">
+                    <p>"Woo-hoo!"</p>
+                </div>
+                <div class="col-xs-2">
+                    <img src="img/correct.png"/>
+                </div>
+            </div>
+
+            <div class = "row output" id="incorrectOutput">
+                <div class="col-xs-8 col-xs-offset-2 col-md-3 col-md-offset-3">
+                    <p>"Ehh! What's Up Doc?"</p>
+                </div>
+                <div class="col-xs-2">
+                    <img src="img/incorrect.png"/>
+                </div>
+            </div>
+
+            <div class = "row" id="homeButton">
+                <a href="index.html">
+                        <div class="col-xs-5 col-xs-offset-3 play_link">
+                           AMPLIFY
+                        </div>
+                    </a>
+            </div>
+		</div> <!-- /container -->        
+
+		<script src="js/vendor/jquery-1.11.2.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

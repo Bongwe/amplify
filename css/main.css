@@ -1,0 +1,73 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'cowboy_hippie_proregular';
+    src: url('../fonts/cowboy-hippie-pro/cowboy_hippie_pro.woff2') format('woff2'),
+         url('../fonts/cowboy-hippie-pro/cowboy_hippie_pro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'air_americaregular';
+    src: url('../fonts/air-america/airamerica-regular.woff2') format('woff2'),
+         url('../fonts/air-america/airamerica-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	font-family: 'air_americaregular'
+}
+
+a{
+	color: white;
+}
+
+#playButton {
+	text-align: left;	
+}
+
+.options {
+	padding-top: 12px;
+}
+
+.option:hover {
+	background: #7F0061;
+}
+
+.output {
+	padding-top: 20px;
+}
+
+#homeButton {
+	padding-top: 15px;
+}
+
+.play_link {
+	background-color: #7F0265;
+	text-align: center;
+}
+
+#logo {
+	font-family: 'cowboy_hippie_proregular';
+	font-size: 50px;
+}
+
+#about_link {
+	margin-top:15px;
+}
+
+#note {
+	color: #FF4CD1;
+}
